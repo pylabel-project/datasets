@@ -2,7 +2,7 @@ A collection of small datasets and pretrained models that you can use with PyLab
 
 ## Squirrels and Nuts
 The squirrels and nuts dataset contains images of squirrels coming to a window to feed on nuts in Seattle, Washington.  The images were captured using the [Shinobi](https://shinobi.video/) open source CCTV solution. Then the frames were extracted and labelled using [AWS SageMaker Ground Truth](https://aws.amazon.com/sagemaker/data-labeling/). 
-- 
+- [squirrelsandnuts_train.zip](squirrelsandnuts/squirrelsandnuts_train.zip) 100 images with Yolov5 annotations.
 
 ## BCCD Dataset
 BCCD Dataset is a small-scale dataset for blood cells detection. The official repo for this dataset is here https://github.com/Shenggan/BCCD_Dataset.
