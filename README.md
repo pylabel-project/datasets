@@ -3,7 +3,7 @@ A collection of small datasets and pretrained models that you can use with PyLab
 ## Squirrels and Nuts
 The squirrels and nuts dataset contains images of squirrels coming to a window to feed on nuts in Seattle, Washington.  The images were captured using the [Shinobi](https://shinobi.video/) open source CCTV solution. Then the frames were extracted and labelled using [AWS SageMaker Ground Truth](https://aws.amazon.com/sagemaker/data-labeling/). 
 - [squirrelsandnuts_train.zip](squirrelsandnuts/squirrelsandnuts_train.zip) 100 images with Yolov5 annotations.
-[squirrelsandnuts_yolov5.pt](squirrelsandnuts/squirrelsandnuts_yolov5.pt) is a YOLOv5 model trained on the squirrelsandnuts dataset for 100 epochs with a mAP@.5 of 0.95.  You can use these commands to download and use the model. 
+- [squirrelsandnuts_yolov5.pt](squirrelsandnuts/squirrelsandnuts_yolov5.pt) is a YOLOv5 model trained on the squirrelsandnuts dataset for 100 epochs with a mAP@.5 of 0.95.  You can use these commands to download and use the model. 
 ```
 !wget https://github.com/pylabel-project/datasets_models/blob/main/squirrelsandnuts/squirrelsandnuts.pt?raw=true -O BCCD_yolov5.pt
 
